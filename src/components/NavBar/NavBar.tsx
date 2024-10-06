@@ -13,7 +13,7 @@ function NavBar() {
     const location = useLocation()
     return (
         <>
-            <nav className="py-6 px-5 shadow-xl mb-5" style={{backgroundColor:"#131619"}}>
+            <nav className="py-6 px-5 shadow-xl mb-5" style={{ backgroundColor: "#131619" }}>
                 <ul className="flex items-center justify-between">
                     <div onClick={() => { navigate('/') }} className="cursor-pointer text-white text-2xl font-bold mr-32">
                         KROOP
@@ -33,7 +33,8 @@ function NavBar() {
                                     </Link>
                                 </li>
                             )
-                        })}
+                        })
+                    }
                     <div className="mr-4 ml-10 flex items-center justify-between">
                         <button type="button" className="bg-white uppercase antialiased text-xs px-6 py-2 text-black rounded-3xl hover:bg-slate-300 transition-all duration-300 font-bold">
                             book now

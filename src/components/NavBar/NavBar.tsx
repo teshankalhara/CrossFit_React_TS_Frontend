@@ -15,7 +15,7 @@ function NavBar() {
         <>
             <nav className="py-6 px-5 shadow-xl mb-5" style={{ backgroundColor: "#131619" }}>
                 <ul className="flex items-center justify-between">
-                    <div onClick={() => { navigate('/') }} className="cursor-pointer text-white text-2xl font-bold mr-32">
+                    <div onClick={() => { navigate('/') }} className="cursor-pointer text-white text-2xl font-bold ml-2 mr-64">
                         KROOPP
                     </div>
                     <li>
@@ -35,7 +35,7 @@ function NavBar() {
                             )
                         })
                     }
-                    <div className="mr-4 ml-10 flex items-center justify-between">
+                    <div className="mr-4 ml-28 flex items-center justify-between">
                         <button type="button" className="bg-white uppercase antialiased text-xs px-6 py-2 text-black rounded-3xl hover:bg-slate-300 transition-all duration-300 font-bold">
                             book now
                         </button>

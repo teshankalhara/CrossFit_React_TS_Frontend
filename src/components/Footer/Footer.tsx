@@ -48,7 +48,7 @@ const Footer = () => {
                             <div className="uppercase text-left font-bold">start now</div>
                             <div className="flex mt-2">
                                 <input type="email" placeholder="Email" className="w-full border border-white focus:border-white focus:outline-none p-1 text-xs pl-4 rounded-l-full bg-slate-500 placeholder-white" />
-                                <button className="flex items-center justify-center border border-white focus:border-white bg-slate-600 hover:bg-slate-700 rounded-r-full p-1">
+                                <button className="flex items-center justify-center border border-white focus:border-white bg-slate-500 hover:bg-slate-600 rounded-r-full p-1 border-l-0">
                                     <img src={arrowIcon} alt="Arrow Icon" width="20px" />
                                 </button>
                             </div>

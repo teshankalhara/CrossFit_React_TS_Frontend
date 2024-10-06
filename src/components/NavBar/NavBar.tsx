@@ -16,7 +16,7 @@ function NavBar() {
             <nav className="py-6 px-5 shadow-xl mb-5" style={{ backgroundColor: "#131619" }}>
                 <ul className="flex items-center justify-between">
                     <div onClick={() => { navigate('/') }} className="cursor-pointer text-white text-2xl font-bold mr-32">
-                        KROOP
+                        KROOPP
                     </div>
                     <li>
                         <Link to="/" className={`text-sm font-medium transition-colors duration-300 ${location.pathname === "/" ? "text-blue-500" : "text-slate-100"} hover:text-blue-500`}>

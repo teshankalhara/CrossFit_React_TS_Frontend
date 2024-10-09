@@ -3,7 +3,7 @@ import arrowIcon from "../../assets/img/arrowIcon.png"
 const Footer = () => {
     return (
         <>
-            <footer className="bottom-0 bg-slate-500 pt-1">
+            <footer className="bottom-0 bg-black pt-1">
                 <div className="text-white flex flex-row pt-16 items-center">
                     <div className="text-right basis-2/5 uppercase font-bold pr-20" style={{ fontSize: "66px" }}>
                         KROOPP

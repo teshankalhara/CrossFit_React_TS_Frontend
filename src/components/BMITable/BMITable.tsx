@@ -1,7 +1,7 @@
 const BMITable = () => {
     return (
         <>
-            <div className="bg-black rounded-full w-[400px] h-[400px] flex flex-col justify-center items-center mb-8">
+            <div className="bg-black pt-4 rounded-full w-[400px] h-[400px] flex flex-col justify-center items-center mb-8">
                 <div className="flex justify-center items-center">
                     <table border={1} className="border-collapse text-left text-xs">
                         <thead>

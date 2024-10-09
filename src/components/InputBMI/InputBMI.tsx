@@ -1,14 +1,15 @@
-import CustomizedBtn from '../CustomizedBtn/CustomizedBtn';
-const InputType = () => {
+import CustomizedBtn from '../CustomizedBtn/CustomizedBtn'
+
+const InputBMI = () => {
     return (
         <>
-            <form className="p-8">
+            <form className="py-4">
                 <div className="flex">
                     <div>
                         <input type="text" className=" bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Height/cm" />
                     </div>
                     <div>
-                        <input type="text" className="ml-2 bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Weight/kg" />
+                        <input type="text" className="ml-1 bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Weight/kg" />
                     </div>
                 </div>
                 <div className="flex mt-2">
@@ -16,7 +17,7 @@ const InputType = () => {
                         <input type="text" className=" bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Height/cm" />
                     </div>
                     <div>
-                        <select className="ml-2 bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 text-white">
+                        <select className="ml-1 bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 text-white">
                             <option value="" disabled selected>Gender</option>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -26,11 +27,11 @@ const InputType = () => {
                 </div>
                 <div className="flex mt-2">
                     <div>
-                        <input type="text" className=" bg-black w-[408px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Select an activity factor :" />
+                        <input type="text" className=" bg-black w-[404px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Select an activity factor :" />
                     </div>
                 </div>
-                <div className='flex'>
-                    <div className='mt-2'>
+                <div className='flex mt-2'>
+                    <div>
                         <CustomizedBtn title='CALCULATE' width={200} height={40} />
                     </div>
                 </div>
@@ -39,4 +40,4 @@ const InputType = () => {
     )
 }
 
-export default InputType
+export default InputBMI

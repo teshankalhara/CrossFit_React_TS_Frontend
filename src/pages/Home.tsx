@@ -1,4 +1,4 @@
-import InputType from "../components/InputType/InputType"
+import BMI from "./BMI"
 
 const Home = () => {
     return (
@@ -6,8 +6,8 @@ const Home = () => {
             <div>
                 <div className="text-white">
                     Home
-                    <InputType/>
                 </div>
+                <BMI/>
             </div>
         </>
     )

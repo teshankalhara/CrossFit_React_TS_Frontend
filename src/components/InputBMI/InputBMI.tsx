@@ -9,15 +9,15 @@ const InputBMI = () => {
                         <input type="text" className=" bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Height/cm" />
                     </div>
                     <div>
-                        <input type="text" className="ml-1 bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Weight/kg" />
+                        <input type="text" className="ml-1 bg-gray-800 w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Weight/kg" />
                     </div>
                 </div>
                 <div className="flex mt-2">
                     <div>
-                        <input type="text" className=" bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Height/cm" />
+                        <input type="text" className=" bg-gray-900 w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white" placeholder="Height/cm" />
                     </div>
                     <div>
-                        <select className="ml-1 bg-black w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 text-white">
+                        <select className="ml-1 bg-gray-800 w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 text-white">
                             <option value="" disabled selected>Gender</option>
                             <option value="male">Male</option>
                             <option value="female">Female</option>

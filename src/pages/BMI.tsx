@@ -4,7 +4,7 @@ import InputBMI from "../components/InputBMI/InputBMI"
 const BMI = () => {
     return (
         <>
-            <div className="px-8 text-slate-100 mt-8 pb-10" style={{backgroundColor:"#1F1F1F"}}>
+            <div className="px-8 text-slate-100 mt-8 pb-10" style={{ backgroundColor: "#1F1F1F" }}>
                 <div className="flex">
                     <div className="basis-1/2 px-10 py-2">
                         <h1 className="mb-1 text-slate-50 font-bold" style={{ fontSize: "42px" }}>INPUT YOUR BMI</h1>

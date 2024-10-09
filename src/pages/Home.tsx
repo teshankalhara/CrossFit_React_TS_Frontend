@@ -3,7 +3,7 @@ import BMI from "./BMI"
 const Home = () => {
     return (
         <>
-            <div>
+            <div className="bg-slate-800">
                 <div className="text-white">
                     Home
                 </div>

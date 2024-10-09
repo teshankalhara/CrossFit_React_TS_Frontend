@@ -1,5 +1,5 @@
 import BMITable from "../components/BMITable/BMITable"
-import InputType from "../components/InputBMI/InputBMI"
+import InputBMI from "../components/InputBMI/InputBMI"
 
 const BMI = () => {
     return (
@@ -11,7 +11,7 @@ const BMI = () => {
                         <p>
                             Body Mass Index (BMI) is a measure that uses weight and height to determine if a person is underweight, normal, overweight, or obese, indicating health risks.
                         </p>
-                        <InputType />
+                        <InputBMI />
                     </div>
                     <div className="basis-1/2">
                         <div className="flex justify-center items-center">

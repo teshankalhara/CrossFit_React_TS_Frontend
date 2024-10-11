@@ -3,11 +3,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const navigation = [
-    { name: 'Home', path: '/', current: true },
-    { name: 'Pages', path: '/pages', current: false },
-    { name: 'Portfolio', path: '/portfolio', current: false },
-    { name: 'Blog', path: '/blog', current: false },
-    { name: 'Shop', path: '/shop', current: false }
+    { name: 'Home', path: '/' },
+    { name: 'Pages', path: '/pages' },
+    { name: 'Portfolio', path: '/portfolio' },
+    { name: 'Blog', path: '/blog' },
+    { name: 'Shop', path: '/shop' }
 ]
 
 function classNames(...classes: any) {
@@ -19,7 +19,7 @@ const NavBar = () => {
     const location = useLocation()
 
     return (
-        <Disclosure as="nav" className="bg-gray-900">
+        <Disclosure as="nav" className="bg-gray-900 sticky top-0 z-50">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -48,10 +48,12 @@ const NavBar = () => {
                                                 key={item.name}
                                                 to={item.path}
                                                 className={classNames(
-                                                    location.pathname === item.path ? 'bg-gray-800 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                                    location.pathname === item.path
+                                                        ? 'bg-gray-800 text-white'
+                                                        : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                                     'rounded-md px-3 py-2 text-sm font-medium'
                                                 )}
-                                                aria-current={item.current ? 'page' : undefined}
+                                                aria-current={location.pathname === item.path ? 'page' : undefined}
                                             >
                                                 {item.name}
                                             </Link>
@@ -78,10 +80,12 @@ const NavBar = () => {
                                     as={Link}
                                     to={item.path}
                                     className={classNames(
-                                        location.pathname === item.path ? 'bg-gray-800 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                        location.pathname === item.path
+                                            ? 'bg-gray-800 text-white'
+                                            : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                         'block rounded-md px-3 py-2 text-base font-medium'
                                     )}
-                                    aria-current={item.current ? 'page' : undefined}
+                                    aria-current={location.pathname === item.path ? 'page' : undefined}
                                 >
                                     {item.name}
                                 </Disclosure.Button>

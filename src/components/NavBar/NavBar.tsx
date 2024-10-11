@@ -37,7 +37,7 @@ const NavBar = () => {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div
                                     onClick={() => navigate('/')}
-                                    className="cursor-pointer text-white text-2xl font-bold"
+                                    className="cursor-pointer text-white text-2xl font-bold lg:mr-52"
                                 >
                                     KROOPP
                                 </div>

@@ -3,7 +3,7 @@ import SubscribeSet from "../components/SubscribeSet/SubscribeSet"
 const JoinUs = () => {
     return (
         <>
-            <div className="text-center pb-16">
+            <div className="text-center pb-16 pt-4" style={{ backgroundColor: "#131619" }}>
                 <div className="text-center mb-8">
                     <h1 className="text-white uppercase font-bold text-[28px] sm:text-[36px] md:text-[48px] lg:text-[72px]">
                         join us

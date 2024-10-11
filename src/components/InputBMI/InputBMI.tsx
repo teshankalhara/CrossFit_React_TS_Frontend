@@ -3,7 +3,7 @@ import CustomizedBtn from '../CustomizedBtn/CustomizedBtn'
 const InputBMI = () => {
     return (
         <>
-            <form className="py-4">
+            <form className="py-4 pt-5">
                 <div className="flex">
                     <div>
                         <input type="text" style={{ backgroundColor: "#131619" }} className="w-[200px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white placeholder:text-xs" placeholder="Height/cm" />
@@ -37,7 +37,7 @@ const InputBMI = () => {
                         <input type="text" style={{ backgroundColor: "#131619" }} className="w-[404px] h-[40px] border text-sm border-slate-300 rounded-full pl-5 p-2 placeholder:text-white placeholder:text-xs" placeholder="Select an activity factor :" />
                     </div>
                 </div>
-                <div className='flex mt-2'>
+                <div className='flex mt-4'>
                     <div>
                         <CustomizedBtn title='CALCULATE' width={200} height={40} />
                     </div>

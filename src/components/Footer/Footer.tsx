@@ -3,7 +3,7 @@ import arrowIcon from "../../assets/img/arrowIcon.png"
 const Footer = () => {
     return (
         <>
-            <footer className="bottom-0 bg-slate-500 pt-1">
+            <footer className="bottom-0 bg-back pt-1">
                 <div className="text-white flex flex-row pt-16 items-center">
                     <div className="text-right basis-2/5 uppercase font-bold pr-20" style={{ fontSize: "66px" }}>
                         KROOPP
@@ -47,8 +47,8 @@ const Footer = () => {
                         <div className="font-light">
                             <div className="uppercase text-left font-bold">start now</div>
                             <div className="flex mt-2">
-                                <input type="email" placeholder="Email" className="w-full border border-white focus:border-white focus:outline-none p-1 text-xs pl-4 rounded-l-full bg-slate-500 placeholder-white" />
-                                <button className="flex items-center justify-center border border-white focus:border-white bg-slate-500 hover:bg-slate-600 rounded-r-full p-1 border-l-0">
+                                <input type="email" placeholder="Email" className="w-full bg-black border border-white focus:border-white focus:outline-none p-1 text-xs pl-4 rounded-l-full placeholder-white" />
+                                <button className="flex items-center justify-center border border-white focus:border-white bg-black hover:bg-slate-900 rounded-r-full p-1 border-l-0">
                                     <img src={arrowIcon} alt="Arrow Icon" width="20px" />
                                 </button>
                             </div>

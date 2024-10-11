@@ -4,10 +4,10 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const navigation = [
     { name: 'Home', path: '/' },
-    { name: 'Pages', path: '/pages' },
+    { name: 'Check BMI', path: '/bmi' },
     { name: 'Portfolio', path: '/portfolio' },
     { name: 'Blog', path: '/blog' },
-    { name: 'Shop', path: '/shop' }
+    { name: 'Join US', path: '/joinus' }
 ]
 
 function classNames(...classes: any) {
@@ -19,7 +19,7 @@ const NavBar = () => {
     const location = useLocation()
 
     return (
-        <Disclosure as="nav" className="bg-gray-900 sticky top-0 z-50">
+        <Disclosure as="nav" className="sticky top-0 z-50 shadow-lg shadow-black" style={{ backgroundColor: "#131619" }}>
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

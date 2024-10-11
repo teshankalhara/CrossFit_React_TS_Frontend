@@ -1,3 +1,4 @@
+import SubscribeSet from "../components/SubscribeSet/SubscribeSet"
 import BMI from "./BMI"
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
                 <div className="text-white">
                     Home
                 </div>
+                <SubscribeSet/>
                 <BMI/>
             </div>
         </>

@@ -19,7 +19,7 @@ const NavBar = () => {
     const location = useLocation()
 
     return (
-        <Disclosure as="nav" className="sticky top-0 z-50 shadow-lg shadow-black" style={{ backgroundColor: "#131619" }}>
+        <Disclosure as="nav" className="sticky top-0 z-50 shadow-lg shadow-black lg:py-2" style={{ backgroundColor: "#131619" }}>
             {({ open }) => (
                 <>
                     <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

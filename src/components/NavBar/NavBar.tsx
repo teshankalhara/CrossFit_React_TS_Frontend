@@ -5,9 +5,9 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 const navigation = [
     { name: 'Home', path: '/' },
     { name: 'Check BMI', path: '/bmi' },
+    { name: 'Join US', path: '/joinus' },
     { name: 'About', path: '/about' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Join US', path: '/joinus' }
+    { name: 'Blog', path: '/blog' }
 ]
 
 function classNames(...classes: any) {

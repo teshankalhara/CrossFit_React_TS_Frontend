@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="p-6 sm:flex sm:pt-4 lg:flex lg:flex-row lg:pt-5 sm:pb-8 lg:pb-20 lg:mx-auto lg:max-w-6xl text-white">
+                <div className="p-6 sm:flex sm:pt-4 lg:flex lg:flex-row lg:pt-5 sm:pb-8 lg:pb-12 lg:mx-auto lg:max-w-6xl text-white">
                     <div className="sm:basis-1/12 md:basis-1/12 lg:basis-1/6"></div>
 
                     <div className="sm:basis-10/12 sm:flex sm:justify-between md:flex md:basis-10/12 md:items-start md:justify-between lg:basis-4/6 lg:flex lg:items-start lg:justify-between xl:basis-4/6 xl:flex xl:items-start xl:justify-between">
@@ -99,7 +99,7 @@ const Footer = () => {
                     <div className="sm:1/12 md:1/8 lg:basis-1/6"></div>
                 </div>
 
-                <div className="px-0 py-2 mt-4 sm:py-3 md:py-3 lg:py-3 xl:py-5 2xl:py-6" style={{ backgroundColor: "#131619" }}>
+                <div className="px-0 py-2 mt-1 md:mt-0 sm:py-3 md:py-3 lg:py-3 xl:py-5 2xl:py-6" style={{ backgroundColor: "#131619" }}>
                     <div className="text-white text-[9px] md:text-xs lg:text-xs xl:text-sm 2xl:text-lg text-center">
                         &copy;2024 Qode Interactive, All Rights Reserved | Privacy Policy | Contact Us
                     </div>

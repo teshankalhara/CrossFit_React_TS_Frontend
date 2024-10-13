@@ -5,10 +5,10 @@ const About = () => {
         <>
             <div className="pt-4 py-5" style={{ backgroundColor: "#131619" }}>
                 <div className="sm:flex">
-                    <div className="basis-1/2">
+                    <div className="sm:basis-1/2">
 
                     </div>
-                    <div className="basis-1/2">
+                    <div className="sm:basis-1/2">
                         <div className="relative lg:basis-1/2 lg:py-2 sm:px-10 sm:pt-10 pl-5 pt-2">
                             <h1 className="absolute lg:inset-0 text-[70px] sm:text-[70px] lg:text-[80px] font-extrabold text-black opacity-10 sm:flex sm:items-start sm:justify-start"
                                 style={{ textShadow: '2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white' }}>

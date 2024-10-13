@@ -13,7 +13,7 @@ const BMI = () => {
                                 BMI
                             </h1>
                             <div className="lg:relative lg:z-10 lg:py-3 lg:mt-4 sm:mt-6 mt-8">
-                                <h1 className="lg:mb-1 text-slate-50 font-bold" style={{ fontSize: "42px" }}>INPUT YOUR BMI</h1>
+                            <h1 className="lg:mb-1 text-slate-50 font-bold uppercase text-[42px]">INPUT YOUR BMI</h1>
                             </div>
                             <div className="lg:px-6 lg:relative lg:z-99">
                                 <p>
